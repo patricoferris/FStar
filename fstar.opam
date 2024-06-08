@@ -6,7 +6,7 @@ homepage: "http://fstar-lang.org"
 license: "Apache-2.0"
 depends: [
   "ocaml" {>= "4.10.0"}
-  "batteries"
+  "batteries" {>= "3.6.0"}
   "zarith"
   "stdint"
   "yojson"
