@@ -394,7 +394,7 @@ let (defaults : (Prims.string * option_val) Prims.list) =
   ("z3seed", (Int Prims.int_zero));
   ("z3cliopt", (List []));
   ("z3smtopt", (List []));
-  ("z3version", (String "4.8.5"));
+  ("z3version", (String "4.8.17"));
   ("__no_positivity", (Bool false));
   ("__tactics_nbe", (Bool false));
   ("warn_error", (List []));
@@ -2903,7 +2903,7 @@ let rec (specs_with_types :
                                                                     let uu___231
                                                                     =
                                                                     text
-                                                                    "Set the version of Z3 that is to be used. Default: 4.8.5" in
+                                                                    "Set the version of Z3 that is to be used. Default: 4.8.17" in
                                                                     (FStar_Getopt.noshort,
                                                                     "z3version",
                                                                     (SimpleStr
