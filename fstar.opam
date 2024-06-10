@@ -36,3 +36,6 @@ url {
   src: "https://github.com/FStarLang/FStar/archive/V0.9.7.0-alpha1.zip"
   checksum: "md5=78414a6a5a0ca0c7770a43a36c5f31f7"
 }
+pin-depends:[
+  [ "z3.4.8.5-1" "git+https://github.com/patricoferris/z3#65fc7455e7a414365ebb07bbafc9c638dcccc034" ]
+]
